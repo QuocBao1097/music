@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+.fa-compact-disc {
+    color:#0ef0e4;
+    font-size: 40px;
+}
+.header {
+    background-color: rgb(6, 33, 85);
+    position: fixed;
+    z-index: 1;
+}
+
+.head {
+    background-color: rgb(6, 33, 85);
+    color: white;
+    border-bottom: 3px solid rgb(16, 198, 204);
+}
+
+.navbar {
+    background-color: rgb(6, 33, 85);
+}
+
+.list li {
+    padding: 0 10px;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 50s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.col-3,
+.col-6 {
+    padding: 8px 0;
+}
+/* content */
+.content {
+    
+    height: auto;
+    padding-top: 180px;
+}
+.content li{
+    list-style-type: none;
+}
+.baihatmoi li{
+    border-bottom: 1px solid #616668;
+    padding: 10px 0;
+}
+.baihatmoi li a{
+    text-decoration: none;
+    color: white;
+}
+#cs{
+    font-size: 12px;
+    color: bisque;
+}
+.baihatmoi li:hover a{
+    color: #0ccac1;
+}
+.tacgia{
+    padding-left: 20px;
+   
+}
+.nhacmo{
+    border-bottom: 2px solid rgb(34, 169, 223);
+}

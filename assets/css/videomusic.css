@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-compact-disc {
+    color: #0ccac1;
+    font-size: 40px;
+}
+.header {
+    background-color: rgb(6, 33, 85);
+    position: fixed;
+    z-index: 1;
+}
+
+.head {
+    background-color: rgb(6, 33, 85);
+    color: white;
+    border-bottom: 3px solid rgb(16, 198, 204);
+}
+
+.navbar {
+    background-color: rgb(6, 33, 85);
+}
+.list li {
+    padding: 0 10px;
+}
+.col-3,
+.col-6 {
+    padding: 8px 0;
+}
+.content{
+    background-color: rgb(2, 2, 29);
+    height: auto;
+    padding-top: 180px;
+}
+#nsi{
+    font-size: 25px;
+    color: rgb(87, 91, 95);
+}
+video{
+    padding-left: 0;
+    margin-left: 0;
+}
+.men a {
+    color: white;
+    text-decoration: none
+}
+
+.men a h6 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#dt {
+    font-size: 14px;
+    color: darkgrey;
+}
+.ms {
+    display: flex;
+    justify-content: space-between;
+}
+@media(max-width:1200px){
+video{
+    width: 300px;
+    height: 150px;
+}
+.content{
+    padding-top: 200px;
+}
+}
+.baihatmoi li{
+    list-style-type: none;
+    border-bottom: 1px solid #616668;
+    padding: 10px 0;
+}
+.baihatmoi li a{
+    text-decoration: none;
+    color: white;
+}
+#cs{
+    font-size: 12px;
+    color: bisque;
+}
+.baihatmoi li:hover a{
+    color: #0ccac1;
+}
+.tacgia{
+    padding-left: 20px;
+   
+}
+.baihatmoi ul{
+    padding-left: 0;
+}
+.cothe{
+    padding: 10px 0;
+}

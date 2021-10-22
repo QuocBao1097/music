@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-compact-disc {
+    color: #0ef0e4;
+    font-size: 40px;
+}
+.header {
+    background-color: rgb(6, 33, 85);
+    position: fixed;
+    z-index: 1;
+}
+
+.head {
+    background-color: rgb(6, 33, 85);
+    color: white;
+    border-bottom: 3px solid rgb(16, 198, 204);
+}
+
+.navbar {
+    background-color: rgb(6, 33, 85);
+}
+.list li {
+    padding: 0 10px;
+}
+.col-3,
+.col-6 {
+    padding: 8px 0;
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 50s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.content {
+    
+    height: auto;
+    padding-top: 180px;
+    
+}.theloaibaihat{
+    position: relative;
+    border-bottom: 2px solid rgb(34, 169, 223);  
+}
+.table{
+    display: none;
+    position: absolute;
+}
+.theloaibaihat:hover .table{
+    display: block;
+
+}
+.table{
+    width: 500px;
+}
+.nhactre{
+    padding-left: 0;
+    padding-top: 20px;
+}
+.tac{
+    display: inline-block;
+    padding-left: 10px;
+    
+}
+.nhactre li{
+    list-style-type: none;
+    border-bottom: 1px solid rgb(127, 132, 133);
+    padding: 10px 0;
+}
+.nhactre li a{
+    color: white;
+}
+.casi{
+    color: rgb(93, 95, 97);
+}
+.theloainhactre li:hover .tenbai{
+    color: aqua;
+}
+.vide{
+    padding-top: 40px;
+}
+.vide a{
+ color: white;
+ text-decoration: none;
+}
+.vide-mu a{
+    color: white;
+    text-decoration: none;
+}
+.video-mu{
+    display: flex;
+    justify-content: space-between;
+}
+.nt{
+    border-bottom: 2px solid #0ef0e4;
+}

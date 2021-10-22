@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* header */
+.fa-compact-disc {
+  color: #0ccac1;
+  font-size: 40px;
+}
+.header {
+  background-color: rgb(6, 33, 85);
+  position: fixed;
+  z-index: 1;
+}
+
+.head {
+  background-color: rgb(6, 33, 85);
+  color: white;
+  border-bottom: 3px solid red;
+}
+
+.navbar {
+  background-color: rgb(6, 33, 85);
+}
+
+.list li {
+  padding: 0 10px;
+}
+
+.col-3,
+.col-6 {
+  padding: 8px 0;
+}
+.content {
+  background-color: rgb(2, 2, 29);
+  padding-top: 180px;
+  height: auto;
+}
+@-webkit-keyframes xoayvong {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+/* Standard syntax */
+@keyframes xoayvong {
+  from {
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+  }
+}
+
+/* // call animation */
+.xoay {
+  animation: xoayvong 5s linear 0s infinite;
+  -webkit-animation: xoayvong 5s linear 0s infinite;
+  -moz-animation: xoayvong 5s linear 0s infinite;
+  -o-animation: xoayvong 5s linear 0s infinite;
+  border-radius: 50%;
+}
+.phat {
+  background-image: linear-gradient(45deg, pink, red, blue);
+  border-radius: 10px;
+  margin-top: 300px;
+}
+audio {
+  width: 500px;
+  height: 40px;
+  margin-top: 80px;
+}
+.ten {
+  margin-top: 40px;
+}
+.loi {
+  padding: 20px 0;
+}
+.cothe {
+  padding: 10px 0;
+}
+.baihatmoi li {
+  list-style-type: none;
+  border-bottom: 1px solid #616668;
+  padding: 10px 0;
+}
+.baihatmoi li a {
+  text-decoration: none;
+  color: white;
+}
+#cs {
+  font-size: 12px;
+  color: bisque;
+}
+.baihatmoi li:hover a {
+  color: #0ccac1;
+}
+.tacgia {
+  padding-left: 20px;
+}
+.baihatmoi ul {
+  padding-left: 0;
+}
+.album {
+  display: flex;
+  justify-content: space-between;
+}
+.album a {
+  color: white;
+  text-decoration: none;
+}
+
+.album a h6 {
+  font-size: 18px;
+  padding-top: 10px;
+}
+
+#dt {
+  font-size: 14px;
+  color: darkgrey;
+}
+#more {
+  display: none;
+}
+/*Background mặc định của body*/
+
+/*Ipad ngang(1024 x 768)*/
+@media screen and (min-width: 1024px) {
+  audio {
+    width: 370px;
+  }
+  .xoay {
+    width: 100px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  audio {
+    width: 260px;
+  }
+  .xoay {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*Ipad dọc(768 x 1024)*/
+@media screen and (max-width: 768px) {
+  audio {
+    width: 250px;
+  }
+  .xoay {
+    width: 200px;
+    height: 200px;
+  }
+}
+/*Tablet nhỏ(480 x 640)*/
+@media screen and (max-width: 480px) {
+  audio {
+    width: 180px;
+  }
+  .xoay {
+  }
+}
+/*Iphone(480 x 640)*/
+@media screen and (max-width: 320px) {
+  audio {
+    width: 150px;
+  }
+  .xoay {
+  }
+}
+/*Smart phone nhỏ*/
+@media screen and (max-width: 240px) {
+  audio {
+    width: 400px;
+  }
+}

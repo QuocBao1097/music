@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.fa-compact-disc {
+    color: #0ef0e4;
+    font-size: 40px;
+}
+.header {
+    background-color: rgb(6, 33, 85);
+    position: fixed;
+    z-index: 1;
+}
+
+.head {
+    background-color: rgb(6, 33, 85);
+    color: white;
+    border-bottom: 3px solid rgb(16, 198, 204);
+}
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 50s ease infinite;
+  }
+  
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+.navbar {
+    background-color: rgb(6, 33, 85);
+}
+.list li {
+    padding: 0 10px;
+}
+.col-3,
+.col-6 {
+    padding: 8px 0;
+}
+
+.content {
+    height: auto;
+    padding-top: 180px;
+}
+
+.playlist {
+    padding: 30px 0;
+}
+
+.play {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.ms {
+    display: flex;
+    justify-content: space-between;
+}
+
+.md {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+
+.mun a {
+    color: white;
+    text-decoration: none
+}
+
+.mun a h6 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#ha {
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.men a {
+    color: white;
+    text-decoration: none
+}
+
+.men a h6 {
+    font-size: 18px;
+    padding-top: 10px;
+}
+
+#dt {
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.fa-chart-bar {
+    color: chartreuse;
+}
+
+#pla{
+    color: aliceblue;
+    position: absolute;
+    top: 85px;
+    left: 80px;
+    font-size: 40px;
+    opacity: 0;
+}
+
+.pl {
+    position: relative;
+}
+
+.pl:hover #pla {
+    opacity: 1;
+}
+
+.bai li {
+    padding: 10px 0;
+    border-bottom: 3px solid #23a6d5;
+}
+
+.bai li a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    min-height: 10px;
+}
+
+.bai .op {
+    font-size: 14px;
+    color: darkgrey;
+}
+
+.bai li a:hover {
+    color: #0ccac1;
+}
+.so{
+    color: aliceblue;
+    padding: 2px;
+    background-color: #23a6d5;
+}
+.phat li{
+    list-style-type: none;
+}
+.phat li a{
+    color: white;
+    text-decoration: none;
+
+}
+.baihat{
+    display: flex;
+    justify-content:space-evenly ;
+}
+.bh1{
+    padding-left: 0;
+}
+.bh1 li{
+    list-style-type: none;
+    border-bottom: 1px solid #23a6d5;
+    padding: 16px 0;
+    
+}
+.bh1 li a{
+    text-decoration: none;
+    color: white;
+}
+.tacgia{
+    padding-left: 20px;
+   
+}
+#cs{
+    font-size: 12px;
+    color: bisque;
+}
+.bh1 li:hover a{
+    color: #0ccac1;
+}
+.men:hover a{
+    color: #0ccac1;
+}
+.mun:hover a{
+    color: #0ccac1;
+}
+
+.bai li{
+    list-style-type: none;
+}
+.nghesi1{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    flex-wrap: wrap;
+}
+.nghesi2{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.play .img-fluid:hover {
+    opacity: 0.7;
+}
+.mun .img-fluid:hover{
+    opacity: 0.7;
+}
+.men .img-fluid:hover{
+    opacity: 0.7;
+}
+.list-bai{
+    padding: 30px 0;
+}
+.theloaibaihat{
+    position: relative;  
+}
+.table{
+    display: none;
+    position: absolute;
+}
+.theloaibaihat:hover .table{
+    display: block;
+
+}
+.table{
+    width: 300px;
+}
