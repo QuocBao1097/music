@@ -1,11 +1,10 @@
-
-@media(max-width:1200px) and (min-width:740px){
-    .content{
-        padding-top: 200px;
-    }
+@media (max-width: 1200px) and (min-width: 740px) {
+  .content {
+    padding-top: 200px;
+  }
 }
-@media(max-width:740px){
-    .content{
-        padding-top: 250px;
-    }
+@media (max-width: 740px) {
+  .content {
+    padding-top: 250px;
+  }
 }
